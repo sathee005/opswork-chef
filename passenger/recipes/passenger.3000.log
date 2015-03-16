@@ -1,0 +1,90 @@
+[ 2015-03-16 12:27:35.9276 14614/7fadd460f780 age/Wat/Main.cpp:1257 ]: Starting PassengerAgent watchdog...
+[ 2015-03-16 12:27:35.9307 14617/7f7b4249c780 age/Hel/Main.cpp:883 ]: Starting PassengerAgent server...
+[ 2015-03-16 12:27:35.9308 14617/7f7b4249c780 age/Hel/Main.cpp:232 ]: PassengerAgent server running in multi-application mode.
+[ 2015-03-16 12:27:35.9318 14617/7f7b4249c780 age/Hel/Main.cpp:637 ]: PassengerAgent server online, PID 14617
+[ 2015-03-16 12:27:35.9357 14622/7f880276c780 age/Log/Main.cpp:431 ]: Starting PassengerAgent logger...
+[ 2015-03-16 12:27:35.9360 14622/7f880276c780 age/Log/Main.cpp:312 ]: PassengerAgent logger online, PID 14622
+2015/03/16 12:27:37 [error] 14632#0: *4 "/var/chef/cookbooks/passenger/recipes/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: _, request: "HEAD / HTTP/1.1", host: "0.0.0.0"
+
+[ 2015-03-16 12:27:50.2148 14617/7f7b4065e700 age/Hel/Main.cpp:447 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-03-16 12:27:50.2148 14617/7f7b4249c780 age/Hel/Main.cpp:806 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-03-16 12:27:50.2149 14617/7f7b3fe5d700 Ser/Server.h:453 ]: [AdminServer] Shutdown finished
+[ 2015-03-16 12:27:50.2149 14617/7f7b4065e700 Ser/Server.h:453 ]: [ServerThr.1] Shutdown finished
+[ 2015-03-16 12:27:50.2151 14617/7f7b4249c780 age/Hel/Main.cpp:868 ]: PassengerAgent server shutdown finished
+
+[ 2015-03-16 12:27:50.2154 14622/7f88008f3700 age/Log/Main.cpp:338 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-03-16 12:27:50.2154 14622/7f880276c780 age/Log/Main.cpp:400 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-03-16 12:27:50.2154 14622/7f88008f3700 Ser/Server.h:453 ]: [LoggerAdminServer] Shutdown finished
+[ 2015-03-16 12:27:50.2155 14622/7f880276c780 age/Log/Main.cpp:425 ]: PassengerAgent logger shutdown finished
+[ 2015-03-16 12:27:53.1306 14669/7fac5ec0d780 age/Wat/Main.cpp:1257 ]: Starting PassengerAgent watchdog...
+[ 2015-03-16 12:27:53.1337 14672/7fb42c4d1780 age/Hel/Main.cpp:883 ]: Starting PassengerAgent server...
+[ 2015-03-16 12:27:53.1337 14672/7fb42c4d1780 age/Hel/Main.cpp:232 ]: PassengerAgent server running in multi-application mode.
+[ 2015-03-16 12:27:53.1347 14672/7fb42c4d1780 age/Hel/Main.cpp:637 ]: PassengerAgent server online, PID 14672
+[ 2015-03-16 12:27:53.1384 14677/7f829d160780 age/Log/Main.cpp:431 ]: Starting PassengerAgent logger...
+[ 2015-03-16 12:27:53.1388 14677/7f829d160780 age/Log/Main.cpp:312 ]: PassengerAgent logger online, PID 14677
+2015/03/16 12:27:55 [error] 14686#0: *4 "/var/chef/cookbooks/passenger/recipes/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: _, request: "HEAD / HTTP/1.1", host: "0.0.0.0"
+
+[ 2015-03-16 12:29:49.8081 14672/7fb42a693700 age/Hel/Main.cpp:447 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-03-16 12:29:49.8082 14672/7fb42c4d1780 age/Hel/Main.cpp:806 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-03-16 12:29:49.8082 14672/7fb429e92700 Ser/Server.h:453 ]: [AdminServer] Shutdown finished
+[ 2015-03-16 12:29:49.8082 14672/7fb42a693700 Ser/Server.h:453 ]: [ServerThr.1] Shutdown finished
+[ 2015-03-16 12:29:49.8084 14672/7fb42c4d1780 age/Hel/Main.cpp:868 ]: PassengerAgent server shutdown finished
+
+[ 2015-03-16 12:29:49.8087 14677/7f829b2e7700 age/Log/Main.cpp:338 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-03-16 12:29:49.8087 14677/7f829d160780 age/Log/Main.cpp:400 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-03-16 12:29:49.8087 14677/7f829b2e7700 Ser/Server.h:453 ]: [LoggerAdminServer] Shutdown finished
+[ 2015-03-16 12:29:49.8088 14677/7f829d160780 age/Log/Main.cpp:425 ]: PassengerAgent logger shutdown finished
+[ 2015-03-16 12:29:56.4621 14735/7fa2775a0780 age/Wat/Main.cpp:1257 ]: Starting PassengerAgent watchdog...
+[ 2015-03-16 12:29:56.4653 14738/7fe77cd4e780 age/Hel/Main.cpp:883 ]: Starting PassengerAgent server...
+[ 2015-03-16 12:29:56.4653 14738/7fe77cd4e780 age/Hel/Main.cpp:232 ]: PassengerAgent server running in multi-application mode.
+[ 2015-03-16 12:29:56.4664 14738/7fe77cd4e780 age/Hel/Main.cpp:637 ]: PassengerAgent server online, PID 14738
+[ 2015-03-16 12:29:56.4703 14743/7fdd54cde780 age/Log/Main.cpp:431 ]: Starting PassengerAgent logger...
+[ 2015-03-16 12:29:56.4706 14743/7fdd54cde780 age/Log/Main.cpp:312 ]: PassengerAgent logger online, PID 14743
+2015/03/16 12:29:58 [error] 14752#0: *4 "/var/chef/cookbooks/passenger/recipes/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: _, request: "HEAD / HTTP/1.1", host: "0.0.0.0"
+
+[ 2015-03-16 12:30:00.0515 14738/7fe77af10700 age/Hel/Main.cpp:447 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-03-16 12:30:00.0515 14738/7fe77cd4e780 age/Hel/Main.cpp:806 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-03-16 12:30:00.0516 14738/7fe77a70f700 Ser/Server.h:453 ]: [AdminServer] Shutdown finished
+[ 2015-03-16 12:30:00.0516 14738/7fe77af10700 Ser/Server.h:453 ]: [ServerThr.1] Shutdown finished
+[ 2015-03-16 12:30:00.0518 14738/7fe77cd4e780 age/Hel/Main.cpp:868 ]: PassengerAgent server shutdown finished
+
+[ 2015-03-16 12:30:00.0521 14743/7fdd52e65700 age/Log/Main.cpp:338 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-03-16 12:30:00.0521 14743/7fdd54cde780 age/Log/Main.cpp:400 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-03-16 12:30:00.0521 14743/7fdd52e65700 Ser/Server.h:453 ]: [LoggerAdminServer] Shutdown finished
+[ 2015-03-16 12:30:00.0522 14743/7fdd54cde780 age/Log/Main.cpp:425 ]: PassengerAgent logger shutdown finished
+[ 2015-03-16 12:30:03.2928 14791/7f655a135780 age/Wat/Main.cpp:1257 ]: Starting PassengerAgent watchdog...
+[ 2015-03-16 12:30:03.2959 14794/7f6dd5167780 age/Hel/Main.cpp:883 ]: Starting PassengerAgent server...
+[ 2015-03-16 12:30:03.2959 14794/7f6dd5167780 age/Hel/Main.cpp:232 ]: PassengerAgent server running in multi-application mode.
+[ 2015-03-16 12:30:03.2970 14794/7f6dd5167780 age/Hel/Main.cpp:637 ]: PassengerAgent server online, PID 14794
+[ 2015-03-16 12:30:03.3009 14799/7f8a52cd3780 age/Log/Main.cpp:431 ]: Starting PassengerAgent logger...
+[ 2015-03-16 12:30:03.3012 14799/7f8a52cd3780 age/Log/Main.cpp:312 ]: PassengerAgent logger online, PID 14799
+2015/03/16 12:30:05 [error] 14808#0: *4 "/var/chef/cookbooks/passenger/recipes/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: _, request: "HEAD / HTTP/1.1", host: "0.0.0.0"
+
+[ 2015-03-16 12:30:17.2955 14794/7f6dd3329700 age/Hel/Main.cpp:447 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-03-16 12:30:17.2955 14794/7f6dd5167780 age/Hel/Main.cpp:806 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-03-16 12:30:17.2955 14794/7f6dd2b28700 Ser/Server.h:453 ]: [AdminServer] Shutdown finished
+[ 2015-03-16 12:30:17.2955 14794/7f6dd3329700 Ser/Server.h:453 ]: [ServerThr.1] Shutdown finished
+[ 2015-03-16 12:30:17.2958 14794/7f6dd5167780 age/Hel/Main.cpp:868 ]: PassengerAgent server shutdown finished
+
+[ 2015-03-16 12:30:17.2960 14799/7f8a50e5a700 age/Log/Main.cpp:338 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-03-16 12:30:17.2961 14799/7f8a52cd3780 age/Log/Main.cpp:400 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-03-16 12:30:17.2961 14799/7f8a50e5a700 Ser/Server.h:453 ]: [LoggerAdminServer] Shutdown finished
+[ 2015-03-16 12:30:17.2962 14799/7f8a52cd3780 age/Log/Main.cpp:425 ]: PassengerAgent logger shutdown finished
+[ 2015-03-16 12:42:40.6729 15458/7f3085f58780 age/Wat/Main.cpp:1257 ]: Starting PassengerAgent watchdog...
+[ 2015-03-16 12:42:40.6759 15461/7fc1e8d3c780 age/Hel/Main.cpp:883 ]: Starting PassengerAgent server...
+[ 2015-03-16 12:42:40.6760 15461/7fc1e8d3c780 age/Hel/Main.cpp:232 ]: PassengerAgent server running in multi-application mode.
+[ 2015-03-16 12:42:40.6770 15461/7fc1e8d3c780 age/Hel/Main.cpp:637 ]: PassengerAgent server online, PID 15461
+[ 2015-03-16 12:42:40.6807 15466/7f4e2f522780 age/Log/Main.cpp:431 ]: Starting PassengerAgent logger...
+[ 2015-03-16 12:42:40.6811 15466/7f4e2f522780 age/Log/Main.cpp:312 ]: PassengerAgent logger online, PID 15466
+2015/03/16 12:42:42 [error] 15475#0: *4 "/var/chef/cookbooks/passenger/recipes/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: _, request: "HEAD / HTTP/1.1", host: "0.0.0.0"
+
+[ 2015-03-16 12:42:52.6295 15461/7fc1e6efe700 age/Hel/Main.cpp:447 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-03-16 12:42:52.6295 15461/7fc1e8d3c780 age/Hel/Main.cpp:806 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-03-16 12:42:52.6295 15461/7fc1e66fd700 Ser/Server.h:453 ]: [AdminServer] Shutdown finished
+[ 2015-03-16 12:42:52.6295 15461/7fc1e6efe700 Ser/Server.h:453 ]: [ServerThr.1] Shutdown finished
+[ 2015-03-16 12:42:52.6298 15461/7fc1e8d3c780 age/Hel/Main.cpp:868 ]: PassengerAgent server shutdown finished
+
+[ 2015-03-16 12:42:52.6300 15466/7f4e2d6a9700 age/Log/Main.cpp:338 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-03-16 12:42:52.6300 15466/7f4e2f522780 age/Log/Main.cpp:400 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-03-16 12:42:52.6301 15466/7f4e2d6a9700 Ser/Server.h:453 ]: [LoggerAdminServer] Shutdown finished
+[ 2015-03-16 12:42:52.6301 15466/7f4e2f522780 age/Log/Main.cpp:425 ]: PassengerAgent logger shutdown finished
