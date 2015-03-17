@@ -10,7 +10,7 @@ passenger Cookbook
 
 {
  "passenger": {
-    "repourl": "https://github.com/RailsApps/rails-signup-download.git",
+    "repourl": "git repo url of your app",
     "clonelocation": "/home/ubuntu/test",
     "rubyversion": "ruby1.9.3"
   }
