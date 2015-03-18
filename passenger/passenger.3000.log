@@ -1,0 +1,18 @@
+[ 2015-03-18 06:40:24.8754 13062/7fce2a847780 age/Wat/Main.cpp:1257 ]: Starting PassengerAgent watchdog...
+[ 2015-03-18 06:40:24.8787 13065/7f687c469780 age/Hel/Main.cpp:883 ]: Starting PassengerAgent server...
+[ 2015-03-18 06:40:24.8788 13065/7f687c469780 age/Hel/Main.cpp:232 ]: PassengerAgent server running in multi-application mode.
+[ 2015-03-18 06:40:24.8798 13065/7f687c469780 age/Hel/Main.cpp:637 ]: PassengerAgent server online, PID 13065
+[ 2015-03-18 06:40:24.8834 13070/7fce02792780 age/Log/Main.cpp:431 ]: Starting PassengerAgent logger...
+[ 2015-03-18 06:40:24.8837 13070/7fce02792780 age/Log/Main.cpp:312 ]: PassengerAgent logger online, PID 13070
+2015/03/18 06:40:26 [error] 13080#0: *4 "/var/chef/cookbooks/passenger/public/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: _, request: "HEAD / HTTP/1.1", host: "0.0.0.0"
+
+[ 2015-03-18 06:40:33.7043 13065/7f687a62b700 age/Hel/Main.cpp:447 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-03-18 06:40:33.7043 13065/7f687c469780 age/Hel/Main.cpp:806 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-03-18 06:40:33.7043 13065/7f6879e2a700 Ser/Server.h:453 ]: [AdminServer] Shutdown finished
+[ 2015-03-18 06:40:33.7044 13065/7f687a62b700 Ser/Server.h:453 ]: [ServerThr.1] Shutdown finished
+[ 2015-03-18 06:40:33.7046 13065/7f687c469780 age/Hel/Main.cpp:868 ]: PassengerAgent server shutdown finished
+
+[ 2015-03-18 06:40:33.7049 13070/7fce00919700 age/Log/Main.cpp:338 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-03-18 06:40:33.7049 13070/7fce02792780 age/Log/Main.cpp:400 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-03-18 06:40:33.7049 13070/7fce00919700 Ser/Server.h:453 ]: [LoggerAdminServer] Shutdown finished
+[ 2015-03-18 06:40:33.7050 13070/7fce02792780 age/Log/Main.cpp:425 ]: PassengerAgent logger shutdown finished

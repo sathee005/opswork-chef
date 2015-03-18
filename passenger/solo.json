@@ -3,7 +3,7 @@
  "passenger": {
     "repourl": "https://github.com/RailsApps/rails-signup-download.git",
     "clonelocation": "/home/ubuntu/test",
-    "rubyversion": "ruby1.9.3"
+    "rubyversion": "1.9.3"
   },
  "run_list":["recipe[passenger]"]
 

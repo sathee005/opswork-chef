@@ -12,7 +12,7 @@ git node[:passenger][:clonelocation] do
   action :checkout
 end
 
-apt_package node[:passenger][:rubyversion] do
+apt_package "ruby"+node[:passenger][:rubyversion] do
   action :install
 end
 
@@ -41,6 +41,7 @@ end
 
 gem_package "passenger" do
   action :install
+  gem_binary '/usr/bin/gem'+node[:passenger][:rubyversion]
 end
 
 gem_package "bundler" do
