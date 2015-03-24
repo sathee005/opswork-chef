@@ -10,4 +10,3 @@ version          "0.5.4"
 
 depends "apt"
 depends "ssl_certificate"
-depends "apache2"
