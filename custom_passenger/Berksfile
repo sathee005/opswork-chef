@@ -3,4 +3,3 @@ source "https://supermarket.chef.io"
 metadata
 
 cookbook 'nginx_passenger', '~> 0.5.4'
-cookbook 'rvm', :git => "https://github.com/fnichol/chef-rvm"
