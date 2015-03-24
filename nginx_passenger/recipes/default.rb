@@ -1,5 +1,10 @@
 # Installs nginx and Passenger from Phusion's oss-binaries repo
 
+include_recipe "apache2::service"
+
+service "apache2" do
+  action :stop
+end
 include_recipe "apt"
 
 # -- Make sure apt HTTPS is installed -- #

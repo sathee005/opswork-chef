@@ -5,7 +5,6 @@ git node[:custompassenger][:clonelocation] do
   action :checkout
 end
 
-include_recipe "rvm"
 include_recipe "nginx_passenger"
 
 
